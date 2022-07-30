@@ -18,29 +18,29 @@ let products = [
 for (let index = 0; index < products.length; index++) {
     products[index].id = index + 1;
 }
-// console.log(products);
+console.log(products);
 
 //02. Imprima o nome de cada um dos produtos no console.
 
 for (let index = 0; index < products.length; index++) {
-    // console.log(products[index].name);
+    console.log(products[index].name);
 }
 
 //ou 
 
-// products.forEach((product) => console.log(product.name)); 
+products.forEach((product) => console.log(product.name));
 
 //03. Imprima no console o produto com o id 3.
 
 const productWithID3 = products.filter((product) => product.id == 3);
 
-// console.log(productWithID3);
+console.log(productWithID3);
 
 //04. Imprima no console os produtos com a cor "black".
 
 const blackProducts = products.filter((product) => product.colors.includes("black"));
 
-// console.log(blackProducts);
+console.log(blackProducts);
 
 //05. Imprima no console os produtos que não possuem cor. 
 
